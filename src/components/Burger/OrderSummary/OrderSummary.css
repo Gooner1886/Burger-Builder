@@ -1,0 +1,73 @@
+.Success,
+.Success::after {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.Danger,
+.Danger::after {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.Success {
+  background: transparent;
+  border: 1px solid rgba(53, 49, 49, 0.925);
+  border-radius: 5px;
+  color: #62d336f8;
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1em 0em;
+  padding: 0.5em 0.5em;
+  position: relative;
+}
+
+.Success::before,
+.Success::after {
+  background: rgb(29, 25, 25);
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+
+.Success:hover {
+  color: white;
+  background: #62d336f8;
+}
+
+.Danger {
+  background: transparent;
+  border: 1px solid rgba(53, 49, 49, 0.925);
+  border-radius: 5px;
+  color: #e72e2ef8;
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.5em 0.5em;
+  position: relative;
+}
+
+.Danger::before,
+.Danger::after {
+  background: rgb(29, 25, 25);
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+
+.Danger:hover {
+  color: white;
+  background: #e72e2ef8;
+}
+
+.YourOrder {
+  font-size: 2.25em;
+  color: #b32121f5;
+  text-transform: capitalize;
+  margin: 0px 0px 0px 0px;
+  padding: 0.5em;
+}

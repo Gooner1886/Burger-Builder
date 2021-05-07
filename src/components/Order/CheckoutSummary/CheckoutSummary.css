@@ -1,0 +1,61 @@
+.CheckoutSummary {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.Continue {
+  background-color: transparent;
+  border: none;
+  
+  color:#73bb0ff5;
+  
+  font-size: 1.2em;
+  font-weight: bold;
+  
+  margin-left: 2em;
+  margin-bottom: 2em;
+  padding: 0.5em 0.5em;
+  position: relative;
+  
+}
+
+
+
+.Cancel {
+    background-color: transparent;
+    border: none;
+    
+    color:#944317;
+    
+    font-size: 1.2em;
+    font-weight: bold;
+    
+    margin-bottom: 2em;
+    padding: 0.5em 0.5em;
+    position: relative;
+    
+  }
+
+.CheckoutSummary h1 {
+  font-size: 'xxx-large'; 
+  font-weight: 'bold'; 
+  color: #684e16fc; 
+  margin-top: '3em'; 
+  margin-bottom: '0.5em'
+}
+  
+@media(max-width: 770px) {
+  .CheckoutSummary h1 {
+    font-size:xx-large;
+    margin-bottom: 2em;
+  }
+}
+
+
+@media(max-width: 770px) {
+  .CheckoutSummary h1 {
+    font-size:xx-large;
+    margin-bottom: 2em;
+  }
+}
